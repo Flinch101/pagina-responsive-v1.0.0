@@ -24,7 +24,7 @@ total.forEach((e) => {
 
 function filtrar(){
   document.querySelector('.noencontrado').classList.remove('active');
-  var busqueda = formulario.value;
+  var busqueda = formulario.value.toLowerCase();
 
   if(busqueda == " " || busqueda == ""){
     total.forEach((e) => {
