@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estructura basica Layout</title>
+    <link rel="shortcut icon" href="logo_2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <img src="logo.png" alt="">
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li>
+              <input type="text" id="buscar" placeholder="Buscar articulo">
+            </li>
+          </ul>
+        </nav>
+
+      </header>
+      <section class="main">
+        <div class="articles" id="articles">
+          <article data-tags="paisaje_buenos_aires paisaje paisajes buenos_aires franco_eleno">
+            <h2>Paisaje Buenos Aires</h2>
+            <img src="bsas.jpg" alt="">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia at nostrum impedit, velit delectus doloribus eveniet neque tempora sed, exercitationem, quos consequatur veritatis quisquam nisi aspernatur! Blanditiis nulla nihil provident.
+              Id animi, eligendi velit molestiae similique enim doloribus architecto delectus fugit accusamus fugiat temporibus corporis ipsa assumenda itaque expedita hic tempora maiores? Tempore dolore sed ipsum blanditiis in aut necessitatibus!
+              Nemo doloremque et maiores dolor impedit non quia modi quasi minima alias unde possimus illo ab facere a cum repellat, porro quo ullam. Magnam, libero sunt repellendus incidunt nihil cupiditate?
+              Officia, odit quae? Voluptates quisquam laudantium officia, iste voluptate aspernatur? Consectetur ex soluta odio eveniet aliquid fuga sequi a facere id. Id unde deserunt tenetur eaque, quisquam porro culpa perferendis.
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Franco Eleno</span>
+              </p>
+            </div>
+          </article>
+          <article data-tags="paisaje_londres paisaje londres paisajes franco_eleno">
+            <h2>Paisaje Londres</h2>
+            <img src="londres.jpg" alt="">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia at nostrum impedit, velit delectus doloribus eveniet neque tempora sed, exercitationem, quos consequatur veritatis quisquam nisi aspernatur! Blanditiis nulla nihil provident.
+              Id animi, eligendi velit molestiae similique enim doloribus architecto delectus fugit accusamus fugiat temporibus corporis ipsa assumenda itaque expedita hic tempora maiores? Tempore dolore sed ipsum blanditiis in aut necessitatibus!
+              Nemo doloremque et maiores dolor impedit non quia modi quasi minima alias unde possimus illo ab facere a cum repellat, porro quo ullam. Magnam, libero sunt repellendus incidunt nihil cupiditate?
+              Officia, odit quae? Voluptates quisquam laudantium officia, iste voluptate aspernatur? Consectetur ex soluta odio eveniet aliquid fuga sequi a facere id. Id unde deserunt tenetur eaque, quisquam porro culpa perferendis.
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Franco Eleno</span>
+              </p>
+            </div>
+          </article>
+          <article data-tags="paisaje_paris paisaje paris paisajes franco_eleno">
+            <h2>Paisaje Paris</h2>
+            <img src="paris.jpg" alt="">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia at nostrum impedit, velit delectus doloribus eveniet neque tempora sed, exercitationem, quos consequatur veritatis quisquam nisi aspernatur! Blanditiis nulla nihil provident.
+              Id animi, eligendi velit molestiae similique enim doloribus architecto delectus fugit accusamus fugiat temporibus corporis ipsa assumenda itaque expedita hic tempora maiores? Tempore dolore sed ipsum blanditiis in aut necessitatibus!
+              Nemo doloremque et maiores dolor impedit non quia modi quasi minima alias unde possimus illo ab facere a cum repellat, porro quo ullam. Magnam, libero sunt repellendus incidunt nihil cupiditate?
+              Officia, odit quae? Voluptates quisquam laudantium officia, iste voluptate aspernatur? Consectetur ex soluta odio eveniet aliquid fuga sequi a facere id. Id unde deserunt tenetur eaque, quisquam porro culpa perferendis.
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Franco Eleno</span>
+              </p>
+            </div>
+          </article>
+          <article data-tags="video presentacion kiari_draw kiaridraw flinchtuber">
+            <video loading="lazy" src="video.mp4" autoplay="true" loop="true" muted>Tu sistema no puede reproducir este video.</video>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Kiari Draw</span>
+              </p>
+            </div>
+          </article>
+          <div class="noencontrado">
+            <h1>Articulo no encontrado</h1>
+          </div>
+        </div>
+        <div class="asides" id="asides">
+          <aside data-tags="dibujo kiari_draw arte persona kiaridraw">
+            <h2>Dibujos Kiara 1</h2>
+            <img src="dibujokiara1.png" alt="">
+            <p>
+              Esto es una practica que hice me gustó, y la pasé a digital.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A pariatur nihil odit, repellat id deserunt suscipit? Facere magni fuga odio labore ipsa, accusantium laborum omnis sint soluta maiores esse totam.
+              Iste tempore recusandae eius, neque reprehenderit dolor beatae? Et, harum? Ipsa tempore sit ratione! Laborum architecto minus exercitationem ipsam quas facilis quos nam, vero, quidem doloremque reprehenderit delectus quaerat expedita.
+              Facere cupiditate quod repellat cumque error quam distinctio ad voluptatem ut nemo nobis rerum praesentium reprehenderit placeat perspiciatis mollitia, minima culpa similique magni? Quasi natus beatae corrupti ratione error ipsa.
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Kiari Draw</span>
+              </p>
+            </div>
+          </aside>
+          <aside data-tags="dibujo kiari_draw arte tecnologia mala_suerte kiaridraw">
+            <h2>Dibujos Kiara 2</h2>
+            <img src="dibujokiara2.jpeg" alt="">
+            <p>
+              Este lo hice para un video y contar mí mala suerte con la tecnología.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae animi ex unde ad quis, vitae, illum laboriosam quidem quam corrupti. Fuga vitae perspiciatis optio. Debitis porro numquam a eos.Odit suscipit officiis voluptatibus, sunt nulla, cum provident nam alias dolorum perspiciatis eaque fuga pariatur quidem dolores obcaecati dicta maiores repellat. Doloribus vel error possimus illum voluptatum, cupiditate suscipit harum?
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Kiari Draw</span>
+              </p>
+            </div>
+          </aside>
+          <aside data-tags="dibujo kiari_draw arte caballo ajedrez">
+            <h2>Dibujos Kiara 3</h2>
+            <img src="dibujokiara3.png" alt="">
+            <p>
+              Boceto de un caballo blanco en ajedrez
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae animi ex unde ad quis, vitae, illum laboriosam quidem quam corrupti. Fuga vitae perspiciatis optio. Debitis porro numquam a eos.Odit suscipit officiis voluptatibus, sunt nulla, cum provident nam alias dolorum perspiciatis eaque fuga pariatur quidem dolores obcaecati dicta maiores repellat. Doloribus vel error possimus illum voluptatum, cupiditate suscipit harum?
+            </p>
+            <div class="post-final">
+              <div class="button">
+                <button>Ver más</button>
+              </div>
+              <p class="author">
+                07-08-21 - 11:33 - <span class="author_link">Por Kiari Draw</span>
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <footer>
+        <h3>Franco - www.flinchtuber.com</h3>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
